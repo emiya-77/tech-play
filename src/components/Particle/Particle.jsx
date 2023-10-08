@@ -5,12 +5,12 @@ import { loadFull } from "tsparticles";
 const Particle = () => {
 
     const particlesInit = async (main) => {
-        console.log(main);
+        // console.log(main);
         await loadFull(main);
     }
 
     const particlesLoaded = (container) => {
-        console.log(container);
+        // console.log(container);
     }
 
     const optionsStar = {
@@ -76,70 +76,6 @@ const Particle = () => {
             },
         },
         "detectRetina": true,
-    }
-
-    const optionsSnow = {
-        "fpsLimit": 120,
-        "interactivity": {
-            "events": {
-                "onClick": {
-                    "enable": true,
-                    "mode": "push",
-                },
-                "onHover": {
-                    "enable": true,
-                    "mode": "repulse",
-                },
-                "resize": true,
-            },
-            "modes": {
-                "push": {
-                    "quantity": 4,
-                },
-                "repulse": {
-                    "distance": 100,
-                    "duration": 0.4,
-                },
-            },
-        },
-        "particles": {
-            "color": {
-                "value": "#fff"
-            },
-            "move": {
-                "direction": "bottom",
-                "enable": true,
-                "outModes": "out",
-                "speed": 0
-            },
-            "number": {
-                "density": {
-                    "enable": true,
-                    "area": 2000
-                },
-                "value": 400
-            },
-            "opacity": {
-                "value": 0.7
-            },
-            "shape": {
-                "type": "circle"
-            },
-            "size": {
-                "value": 3
-            },
-            "wobble": {
-                "enable": true,
-                "distance": 10,
-                "speed": 10
-            },
-            "zIndex": {
-                "value": {
-                    "min": 0,
-                    "max": 100
-                }
-            }
-        }
     }
 
     return (

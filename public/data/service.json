@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Tech Conference 2023",
+    "image": "/login_bg-1.jpg",
+    "price": 199.99,
+    "short_description": "Join the biggest tech event of the year!",
+    "button": "Register Now"
+  },
+  {
+    "id": 2,
+    "name": "Game Expo 2023",
+    "image": "/login_bg-1.jpg",
+    "price": 49.99,
+    "short_description": "Explore the latest gaming trends and releases.",
+    "button": "Get Tickets"
+  },
+  {
+    "id": 3,
+    "name": "VR Showcase",
+    "image": "/login_bg-1.jpg",
+    "price": 79.99,
+    "short_description": "Experience virtual reality like never before.",
+    "button": "Book Now"
+  },
+  {
+    "id": 4,
+    "name": "Tech Startup Summit",
+    "image": "/login_bg-1.jpg",
+    "price": 149.99,
+    "short_description": "Connect with tech startups and investors.",
+    "button": "Learn More"
+  },
+  {
+    "id": 5,
+    "name": "Gaming Tournament",
+    "image": "/login_bg-1.jpg",
+    "price": 29.99,
+    "short_description": "Compete for glory in esports competitions.",
+    "button": "Join Tournament"
+  },
+  {
+    "id": 6,
+    "name": "Cybersecurity Workshop",
+    "image": "/login_bg-1.jpg",
+    "price": 99.99,
+    "short_description": "Learn to protect your digital assets.",
+    "button": "Enroll Now"
+  },
+  {
+    "id": 7,
+    "name": "Tech Career Fair",
+    "image": "/login_bg-1.jpg",
+    "price": 0.00,
+    "short_description": "Explore job opportunities in the tech industry.",
+    "button": "See Companies"
+  },
+  {
+    "id": 8,
+    "name": "Game Developers' Forum",
+    "image": "/login_bg-1.jpg",
+    "price": 59.99,
+    "short_description": "Connect with fellow game developers.",
+    "button": "Register"
+  },
+  {
+    "id": 9,
+    "name": "AI and Robotics Showcase",
+    "image": "/login_bg-1.jpg",
+    "price": 69.99,
+    "short_description": "Witness the future of AI and robotics.",
+    "button": "Explore"
+  },
+  {
+    "id": 10,
+    "name": "E-Sports Championship",
+    "image": "/login_bg-1.jpg",
+    "price": 39.99,
+    "short_description": "Cheer for your favorite esports teams.",
+    "button": "Buy Tickets"
+  },
+  {
+    "id": 11,
+    "name": "Tech Hackathon",
+    "image": "/login_bg-1.jpg",
+    "price": 79.99,
+    "short_description": "Compete in a 24-hour tech coding challenge.",
+    "button": "Join Hackathon"
+  },
+  {
+    "id": 12,
+    "name": "Gaming Cosplay Contest",
+    "image": "/login_bg-1.jpg",
+    "price": 19.99,
+    "short_description": "Show off your gaming cosplay skills.",
+    "button": "Enter Contest"
+  }
+]

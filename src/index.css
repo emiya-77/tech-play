@@ -8,3 +8,6 @@
 .input-text {
 	@apply w-full tracking-widest text-white font-extralight pt-3 pb-2 px-2 focus:outline-none bg-transparent border-b border-white border-opacity-40;
 }
+.nav-list {
+	@apply cursor-pointer text-lg text-white hover:bg-opacity-20 py-2 px-6 rounded-br-full rounded-tl-full transition duration-300 ease-in-out font-light tracking-wider;
+}

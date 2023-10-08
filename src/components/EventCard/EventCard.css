@@ -1,0 +1,50 @@
+/* Example CSS styles for the DarkShadowCard component */
+.dark-shadow-card {
+	background-color: #222; /* Dark background color */
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.dark-shadow-card-image {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.dark-shadow-card-title {
+	color: #d9534f; /* Dim dark red text color */
+	font-size: 1.5rem;
+	margin-bottom: 5px;
+}
+
+.dark-shadow-card-description {
+	color: #337ab7; /* Dark dim blue text color */
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.dark-shadow-card-price {
+	color: #f0ad4e; /* Shadow color */
+	font-size: 1.25rem;
+	margin-bottom: 10px;
+}
+
+.dark-shadow-card-button {
+	background-color: #d9534f; /* Dim dark red button background color */
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 1rem;
+	transform: skewX(-10deg); /* Tilt the button */
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.dark-shadow-card-button:hover {
+	background-color: #c9302c; /* Darker red on hover */
+}
