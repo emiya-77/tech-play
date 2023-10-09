@@ -7,6 +7,7 @@ import EventDetail from "../pages/EventDetail/EventDetail";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import PrivateRoute from "./PrivateRoute";
+import Discover from "../pages/Discover/Discover";
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,11 @@ const router = createBrowserRouter([
                     <EventDetail></EventDetail>
                 </PrivateRoute>,
                 loader: () => fetch('/data/service.json')
+            },
+            {
+                path: '/discover',
+                element: <Discover></Discover>,
+                loader: () => fetch('/data/discover.json')
             },
             {
                 path: '/about',

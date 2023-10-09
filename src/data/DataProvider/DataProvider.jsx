@@ -7,6 +7,8 @@ export const DataContext = createContext();
 const DataProvider = ({ children }) => {
 
     const [eventsList, setEventsList] = useState();
+    const [blogList, setBlogList] = useState();
+    const [discoverList, setDiscoverList] = useState();
 
     useEffect(() => {
         fetch('/data/service.json')
@@ -14,8 +16,22 @@ const DataProvider = ({ children }) => {
             .then(res => setEventsList(res))
     }, [])
 
+    useEffect(() => {
+        fetch('/data/blog.json')
+            .then(res => res.json())
+            .then(res => setBlogList(res))
+    }, [])
+
+    useEffect(() => {
+        fetch('/data/discover.json')
+            .then(res => res.json())
+            .then(res => setDiscoverList(res))
+    }, [])
+
     const data = {
         eventsList,
+        blogList,
+        discoverList,
     };
 
     return (

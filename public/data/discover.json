@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/XDwXFTF/1.png",
+    "title": "Tech Expo 2023",
+    "date": "October 20, 2023",
+    "description": "Join us at Tech Expo 2023, where you'll experience the latest in tech innovations and gadgets."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/XbnFXG7/2.png",
+    "title": "Game Launch: Cyberverse",
+    "date": "November 5, 2023",
+    "description": "Prepare for an epic journey as we launch the highly anticipated game, Cyberverse."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/6bp4p3S/3.jpg",
+    "title": "Esports Championship",
+    "date": "December 12, 2023",
+    "description": "Witness intense battles and fierce competition at the Esports Championship this December."
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/w6vNv55/4.jpg",
+    "title": "Gaming Night Under the Stars",
+    "date": "January 8, 2024",
+    "description": "Join us for a unique gaming experience under the starry night sky, featuring your favorite games."
+  }
+]

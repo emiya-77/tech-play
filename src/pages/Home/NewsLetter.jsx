@@ -5,8 +5,8 @@ const NewsLetter = () => {
         <section className="w-full divide-x-2 bg-black bg-opacity-80 backdrop-blur-md py-16 mb-40 flex">
             <div className="w-1/3 flex justify-center items-center">
                 <div className="w-[320px] h-40 rounded-t-full overflow-hidden">
-                    <div className="w-[320px] h-40 bg-white rounded-b-full">
-
+                    <div className="w-[320px] h-40 rounded-b-full flex justify-center items-center overflow-hidden">
+                        <img className="w-full h-full object-cover" src="https://i.ibb.co/9NhxmGX/news-Letter.jpg" alt="" />
                     </div>
                 </div>
             </div>

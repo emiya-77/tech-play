@@ -5,6 +5,7 @@ import Slider from "../../components/Slider/Slider";
 import Service from "./Service";
 import Footer from "./Footer";
 import NewsLetter from "./NewsLetter";
+import BlogSection from "../../components/BlogSection/BlogSection";
 
 const Home = () => {
 
@@ -21,6 +22,7 @@ const Home = () => {
             }}>
                 <Service eventCards={eventCards}></Service>
                 <NewsLetter></NewsLetter>
+                <BlogSection></BlogSection>
                 <Footer></Footer>
             </div>
         </div>

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Exploring the World of Gaming Laptops",
+        "date": "September 15, 2023",
+        "imageSrc": "https://i.ibb.co/vH0gGC5/blog-1.jpg",
+        "description": "Discover the latest advancements in gaming laptops and find the perfect one for your gaming setup."
+    },
+    {
+        "id": 2,
+        "title": "Tech Trends: What's New in 2023?",
+        "date": "September 10, 2023",
+        "imageSrc": "https://i.ibb.co/XY9r2B6/blog-2.jpg",
+        "description": "Stay updated with the latest technology trends of 2023, from AI to VR and beyond."
+    },
+    {
+        "id": 3,
+        "title": "The Future of Console Gaming",
+        "date": "September 5, 2023",
+        "imageSrc": "https://i.ibb.co/s1DMZTz/blog-3.jpg",
+        "description": "Explore the future of console gaming and what the next-generation consoles have to offer."
+    }
+]
