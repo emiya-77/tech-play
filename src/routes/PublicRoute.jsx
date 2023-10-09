@@ -3,9 +3,10 @@ import Root from "../layouts/Root";
 import Home from "../pages/Home/Home";
 import Register from "../pages/Register/Register";
 import Login from "../pages/Login/Login";
-import PrivateRoute from "./PrivateRoute";
 import EventDetail from "../pages/EventDetail/EventDetail";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import AboutUs from "../pages/AboutUs/AboutUs";
+import PrivateRoute from "./PrivateRoute";
 
 
 const router = createBrowserRouter([
@@ -29,8 +30,14 @@ const router = createBrowserRouter([
             },
             {
                 path: '/events/:id',
-                element: <EventDetail></EventDetail>,
+                element: <PrivateRoute>
+                    <EventDetail></EventDetail>
+                </PrivateRoute>,
                 loader: () => fetch('/data/service.json')
+            },
+            {
+                path: '/about',
+                element: <AboutUs></AboutUs>
             }
         ]
     }

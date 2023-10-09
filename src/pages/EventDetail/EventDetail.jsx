@@ -1,5 +1,4 @@
-import { useContext, useEffect, useState } from "react";
-import { DataContext } from "../../data/DataProvider/DataProvider";
+import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
 import Footer from "../Home/Footer";
