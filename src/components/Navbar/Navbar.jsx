@@ -6,6 +6,7 @@ import { AuthContext } from "../../auth/AuthProvider/AuthProvider";
 const Navbar = () => {
 
     const { user, logOut } = useContext(AuthContext);
+    const { displayName, photoURL } = user || {};
     console.log(user);
 
     const handleLogOut = () => {
@@ -26,20 +27,6 @@ const Navbar = () => {
                     : 'nav-list bg-white bg-opacity-0'
             );
         }} to='/'>Home</NavLink></li>
-        <li><NavLink className={({ isActive }) => {
-            return (
-                isActive
-                    ? 'nav-list bg-white bg-opacity-20'
-                    : 'nav-list bg-white bg-opacity-0'
-            );
-        }} to='/login'>Login</NavLink></li>
-        <li><NavLink className={({ isActive }) => {
-            return (
-                isActive
-                    ? `nav-list bg-white bg-opacity-20`
-                    : 'nav-list bg-white bg-opacity-0'
-            );
-        }} to='/register'>Register</NavLink></li>
         <li><NavLink className={({ isActive }) => {
             return (
                 isActive
@@ -69,12 +56,12 @@ const Navbar = () => {
     const loginLinks = <>
         <div className="flex items-center justify-center gap-2">
             <div className="text-xl font-light tracking-widest text-white">
-                {user.displayName}
+                {displayName ? displayName : ''}
             </div>
             <div className="w-20 h-[50px] rounded-b-full overflow-hidden">
                 <div className="w-20 h-[50px] bg-white bg-opacity-40 backdrop-filter backdrop-blur-sm  rounded-t-full flex justify-center items-center">
                     <div className="w-12 h-12 flex justify-center items-center bg-white rounded-full overflow-hidden">
-                        <img src={user.photoURL} className="w-full h-full object-cover" alt="" />
+                        <img src={photoURL ? photoURL : ''} className="w-full h-full object-cover" alt="" />
                     </div>
                 </div>
             </div>

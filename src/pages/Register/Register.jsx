@@ -79,8 +79,6 @@ const Register = () => {
                 })
                     .then(() => console.log('profile updated'))
 
-                navigate('/');
-
                 toast.success('Registration complete!', {
                     position: "top-right",
                     autoClose: 5000,
@@ -116,7 +114,7 @@ const Register = () => {
                         <form onSubmit={handleRegister} className="h-full flex flex-col justify-start items-center p-2 md:p-5 mb-3 md:mb-5">
                             <div className="text-4xl font-extralight tracking-widest text-white my-5 md:mb-10">Register</div>
                             <input className="input-text mb-3 md:mb-6" type="text" name="name" placeholder="Name" required />
-                            <input className="input-text mb-3 md:mb-6" type="text" name="photo" placeholder="Photo URL" required />
+                            <input className="input-text mb-3 md:mb-6" type="text" name="photo" placeholder="Photo URL" />
                             <input className="input-text mb-3 md:mb-6" type="email" name="email" placeholder="E-mail" required />
                             <div className='relative inline-block w-full'>
                                 <input className="input-text mb-7 md:mb-14" type={!showPassword ? "password" : "text"} name="password" placeholder="Password" required />

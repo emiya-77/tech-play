@@ -4,6 +4,7 @@ import SnowParticle from "../../components/Particle/SnowParticle";
 import Slider from "../../components/Slider/Slider";
 import Service from "./Service";
 import Footer from "./Footer";
+import NewsLetter from "./NewsLetter";
 
 const Home = () => {
 
@@ -19,6 +20,7 @@ const Home = () => {
                 backgroundImage: `url('/home/service/bg-1.jpg')`
             }}>
                 <Service eventCards={eventCards}></Service>
+                <NewsLetter></NewsLetter>
                 <Footer></Footer>
             </div>
         </div>
