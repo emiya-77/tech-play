@@ -108,7 +108,7 @@ const Register = () => {
     return (
         <>
             <Particle></Particle>
-            <div className="w-full h-screen flex justify-center items-center" style={{ backgroundImage: `url(/login_bg-1.jpg)`, backgroundSize: 'cover' }} >
+            <div className="w-full h-screen flex justify-center items-center" style={{ backgroundImage: `url(/data/home/1.jpg)`, backgroundSize: 'cover' }} >
                 <Tilt>
                     <div className="container min-h-96 w-72 mx-auto md:min-h-[400px] md:w-[400px] bg-black bg-opacity-70 rounded-lg shadow-5xl border border-white border-opacity-30 border-l-0 border-b-0 backdrop-blur-sm px-2 pb-5 md:p-5">
                         <form onSubmit={handleRegister} className="h-full flex flex-col justify-start items-center p-2 md:p-5 mb-3 md:mb-5">
